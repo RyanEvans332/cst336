@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<!--
+
+First Website
+and comment
+in html
+(comments can span multiple lines)
+
+-->
+
+<!-- This is the head -->
+<!-- All styles and javascript go inside the head -->
+    <head>
+       <meta charset="utf-8" />
+       <title>Stuxnet: A brief overview</title>
+       <link href="css/styles.css" rel="stylesheet" type="text/css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>All about Stuxnet</h1>
+            <h3>The virus that could start or stop a war.</h3>
+        </header>
+        <nav>
+            <hr width="50%" />
+            <a href="index.html">Home</a>
+            <a href="about.html">Who is responsible for Stuxnet?</a>
+            <a href="politics.html" id ="activepage">Political motivations</a>
+            <a href="src.html">Source code</a>
+            
+        </nav>
+        
+        <br /><br />
+        
+        <main>
+            
+            <figure id="picture">
+                <img src="img/iran.jpg" alt="Picture of Iran"/>
+            </figure>
+            
+            <div id="mainText">
+                Assuming Stuxnet was created by the US government--it had some political motivations behind it. As mentioned previously, the average user wasn't affected by stuxnet at all besides being a vector for it to spread. Stuxnet was created as a nonviolent way to shut down Iran's nuclear program. It would target a very specific system configuration that indicated the host computer was being used to control centrifuges that are used to refine uranium. If such a computer existed, the worm would exploit a bug in the micro-controller for the centrifuge and quietly takes over its administrative processes. Stuxnet will very slowly change settings in the centrifuge to eventually cause the enrichment process to fail, all while remaining undetected because it hides itself so well. It causes the controller for the centrifuge to lock down so nobody can stop it and it also causes the controller for it not to report any problems or warnings. All of these things combined would effectively destroy a nation's nuclear program. In this particular case: Iran.
+           </div>
+        </main>
+        <!-- This is the footer -->
+        <!-- The footer goes inside the body but not always -->
+        <footer>
+            <hr class="sourcebreak">
+            <div id="sources">
+                ^https://www.csoonline.com/article/3218104/malware/what-is-stuxnet-who-created-it-and-how-does-it-work.html
+                <br/ >^https://www.quora.com/What-is-the-most-sophisticated-piece-of-software-code-ever-written
+            </div>
+            <hr>
+            CST336. 2017&copy; Tashiro-Evans<br />
+            <strong>Disclaimer:</strong> The information in this webpage is fictitious. <br />
+            It is to be used for academic purposes only. <br />
+            <a href="mailto:rtashiro-evans@csumb.edu">Contact me.</a>
+        </footer>
+        <!-- closing footer -->
+        
+    </body>
+    <!-- closing body -->
+
+</html>
