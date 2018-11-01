@@ -50,11 +50,11 @@ include 'inc/functions.php';
  that gives us an interesting way to approximate <span class ="e">e</span>. The thread states:<span id="center"><p> "Pick a uniformly random number in [0,1] and repeat until the sum of the numbers picked is >1. You'll on average pick e ~ 2.718... numbers!" </p></span>
  <p>I did this. 250,000 times. Actually, <i>I just did this right now. In your very web browser.</i></p>
                     </div>
-            <econstant>
+            <span id="econstant">
                     <?php
                     echo tolerence();
                     ?>
-            </econstant>
+            </span>
             <form>
                 <input type="submit" value = "Generate a new value!"/>
             </form>
