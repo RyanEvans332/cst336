@@ -1,0 +1,77 @@
+html {
+    margin: 0px;
+    background-image: url("../img/paper.png");
+    background-repeat: repeat;
+    height: 100%;
+    min-width: 600px;
+}
+
+
+footer {
+    width: 960px;
+    margin: 0 auto; 
+    text-align: center; 
+    font-size: .92em;
+}
+
+
+econstant{
+    font-size: 2em;
+}
+
+.picture {
+    float:left; 
+    margin: 0 10px 50px 0;
+    height: auto; 
+    width: auto; 
+    max-width: 90px; 
+    max-height: 90px;
+}
+
+header, main, nav, footer, #content {
+    width: 960px;
+    margin: 0 auto; 
+    text-align: center; 
+}
+
+.mainText {
+    text-align: left;
+}
+
+#subtext{
+    text-align: center;
+}
+
+h2{
+    color: blue;
+    text-align: left;
+}
+
+figure{
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    float:left;
+    margin: 0.5em;
+    padding: 0.5em;
+    border: thin gold solid;
+}
+
+#list{
+    color:navy;
+}
+
+#center{
+    text-align: center;
+    font-weight: bold;
+}
+
+.e{
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+h1{
+    font-size: 3em;
+}

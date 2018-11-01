@@ -34,6 +34,4 @@ function tolerence(){/*makes sure 'e' generated is within a certain error range*
         }
     }
 }
-$generated_e = tolerence();
-echo $generated_e;
 ?>
