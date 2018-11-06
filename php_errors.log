@@ -2,3 +2,21 @@
 [25-Oct-2018 18:59:25 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/777/index.php on line 11
 [25-Oct-2018 19:02:55 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/777/index.php on line 28
 [25-Oct-2018 19:08:56 UTC] PHP Parse error:  syntax error, unexpected '70' (T_LNUMBER), expecting ',' or ';' in /home/ubuntu/workspace/cst336/777/index.php on line 23
+[02-Nov-2018 19:23:26 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/Slider/index.php on line 30
+[02-Nov-2018 19:34:00 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/Slider/index.php on line 70
+[02-Nov-2018 20:01:27 UTC] PHP Warning:  include(api/pixabayAPl.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/cst336/Slider/index.php on line 6
+[02-Nov-2018 20:01:27 UTC] PHP Stack trace:
+[02-Nov-2018 20:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Slider/index.php:0
+[02-Nov-2018 20:01:27 UTC] PHP Warning:  include(): Failed opening 'api/pixabayAPl.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/cst336/Slider/index.php on line 6
+[02-Nov-2018 20:01:27 UTC] PHP Stack trace:
+[02-Nov-2018 20:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Slider/index.php:0
+[02-Nov-2018 20:01:27 UTC] PHP Fatal error:  Call to undefined function getImageURLs() in /home/ubuntu/workspace/cst336/Slider/index.php on line 8
+[02-Nov-2018 20:01:27 UTC] PHP Stack trace:
+[02-Nov-2018 20:01:27 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Slider/index.php:0
+[02-Nov-2018 20:17:08 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/Slider/index.php on line 51
+[02-Nov-2018 20:17:08 UTC] PHP Stack trace:
+[02-Nov-2018 20:17:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Slider/index.php:0
+[02-Nov-2018 20:17:10 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/Slider/index.php on line 51
+[02-Nov-2018 20:17:10 UTC] PHP Stack trace:
+[02-Nov-2018 20:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Slider/index.php:0
+[02-Nov-2018 20:17:10 UTC] PHP   2. count() /home/ubuntu/workspace/cst336/Slider/index.php:51

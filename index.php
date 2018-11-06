@@ -7,5 +7,7 @@
 echo "Ryan Tashiro-Evans' CST336 Home Page";
 
 ?>
+
+<p>to-do: add links to projects.</p>
 </body>
 </html>
