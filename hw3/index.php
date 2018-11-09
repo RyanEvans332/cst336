@@ -108,7 +108,7 @@ function generateForm(){
             footer{
                 position:absolute;
                 top:72%;
-                left: 38%;
+                left: 41%;
                 text-align:center;
                 font-size: .92em;
             }
