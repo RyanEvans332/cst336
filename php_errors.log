@@ -20,3 +20,109 @@
 [02-Nov-2018 20:17:10 UTC] PHP Stack trace:
 [02-Nov-2018 20:17:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Slider/index.php:0
 [02-Nov-2018 20:17:10 UTC] PHP   2. count() /home/ubuntu/workspace/cst336/Slider/index.php:51
+[06-Nov-2018 17:09:29 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/Slider/index.php on line 83
+[06-Nov-2018 17:09:29 UTC] PHP Stack trace:
+[06-Nov-2018 17:09:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Slider/index.php:0
+[06-Nov-2018 17:09:47 UTC] PHP Fatal error:  Maximum execution time of 300 seconds exceeded in /home/ubuntu/workspace/cst336/Slider/index.php on line 84
+[06-Nov-2018 17:09:47 UTC] PHP Stack trace:
+[06-Nov-2018 17:09:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/Slider/index.php:0
+[06-Nov-2018 17:19:20 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/cst336/scart/index.php on line 53
+[06-Nov-2018 17:46:36 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/scart/functions.php on line 23
+[06-Nov-2018 17:46:36 UTC] PHP Stack trace:
+[06-Nov-2018 17:46:36 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:04:54 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:04:54 UTC] PHP Stack trace:
+[06-Nov-2018 18:04:54 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:04:54 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:04:56 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:04:56 UTC] PHP Stack trace:
+[06-Nov-2018 18:04:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:04:56 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:04:58 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:04:58 UTC] PHP Stack trace:
+[06-Nov-2018 18:04:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:04:58 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:04:59 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:04:59 UTC] PHP Stack trace:
+[06-Nov-2018 18:04:59 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:04:59 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:05:01 UTC] PHP Parse error:  syntax error, unexpected 'include' (T_INCLUDE) in /home/ubuntu/workspace/cst336/scart/scart.php on line 3
+[06-Nov-2018 18:07:12 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:07:12 UTC] PHP Stack trace:
+[06-Nov-2018 18:07:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:07:12 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:07:13 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:07:13 UTC] PHP Stack trace:
+[06-Nov-2018 18:07:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:07:13 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:07:15 UTC] PHP Fatal error:  Call to undefined function displayCart() in /home/ubuntu/workspace/cst336/scart/scart.php on line 37
+[06-Nov-2018 18:07:15 UTC] PHP Stack trace:
+[06-Nov-2018 18:07:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/scart.php:0
+[06-Nov-2018 18:08:01 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:08:01 UTC] PHP Stack trace:
+[06-Nov-2018 18:08:01 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:08:01 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:08:04 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:08:04 UTC] PHP Stack trace:
+[06-Nov-2018 18:08:04 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:08:04 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:08:06 UTC] PHP Warning:  array_push() expects parameter 1 to be array, string given in /home/ubuntu/workspace/cst336/scart/index.php on line 9
+[06-Nov-2018 18:08:06 UTC] PHP Stack trace:
+[06-Nov-2018 18:08:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/index.php:0
+[06-Nov-2018 18:08:06 UTC] PHP   2. array_push() /home/ubuntu/workspace/cst336/scart/index.php:9
+[06-Nov-2018 18:08:11 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/scart/functions.php on line 35
+[06-Nov-2018 18:08:11 UTC] PHP Stack trace:
+[06-Nov-2018 18:08:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/scart.php:0
+[06-Nov-2018 18:08:11 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/scart/scart.php:37
+[06-Nov-2018 18:11:15 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/scart/functions.php on line 35
+[06-Nov-2018 18:11:15 UTC] PHP Stack trace:
+[06-Nov-2018 18:11:15 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/scart.php:0
+[06-Nov-2018 18:11:15 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/scart/scart.php:37
+[06-Nov-2018 18:11:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/scart/functions.php on line 35
+[06-Nov-2018 18:11:16 UTC] PHP Stack trace:
+[06-Nov-2018 18:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/scart.php:0
+[06-Nov-2018 18:11:16 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/scart/scart.php:37
+[06-Nov-2018 18:11:18 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/cst336/scart/functions.php on line 35
+[06-Nov-2018 18:11:18 UTC] PHP Stack trace:
+[06-Nov-2018 18:11:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/cst336/scart/scart.php:0
+[06-Nov-2018 18:11:18 UTC] PHP   2. displayCart() /home/ubuntu/workspace/cst336/scart/scart.php:37
+[06-Nov-2018 18:33:09 UTC] PHP Parse error:  syntax error, unexpected '$newItem' (T_VARIABLE) in /home/ubuntu/workspace/cst336/scart/index.php on line 12
+[06-Nov-2018 21:01:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/ubuntu/workspace/cst336/lab5/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab5/dbConnection.php(9): PDO->__construct('msyql:host=us-c...', 'b9b94fa2aeb7aa', '7a92dbb0')
+#1 /home/ubuntu/workspace/cst336/lab5/index.php(5): getDatabaseConnection('heroku_488940c3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab5/dbConnection.php on line 9
+[06-Nov-2018 23:24:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/ubuntu/workspace/cst336/lab5/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab5/dbConnection.php(9): PDO->__construct('msyql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/lab5/index.php(5): getDatabaseConnection('heroku_488940c3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab5/dbConnection.php on line 9
+[07-Nov-2018 15:32:05 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/hw3/functions.php on line 5
+[07-Nov-2018 15:52:44 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO) in /home/ubuntu/workspace/cst336/hw3/functions.php on line 5
+[07-Nov-2018 15:59:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/ubuntu/workspace/cst336/lab5/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab5/dbConnection.php(9): PDO->__construct('msyql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/lab5/index.php(5): getDatabaseConnection('heroku_488940c3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab5/dbConnection.php on line 9
+[07-Nov-2018 15:59:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'could not find driver' in /home/ubuntu/workspace/cst336/lab5/dbConnection.php:9
+Stack trace:
+#0 /home/ubuntu/workspace/cst336/lab5/dbConnection.php(9): PDO->__construct('msyql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/cst336/lab5/index.php(5): getDatabaseConnection('heroku_488940c3...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/cst336/lab5/dbConnection.php on line 9
+[07-Nov-2018 20:13:33 UTC] PHP Parse error:  syntax error, unexpected '{' in /home/ubuntu/workspace/cst336/hw3/functions.php on line 8
+[07-Nov-2018 20:19:36 UTC] PHP Parse error:  syntax error, unexpected '<' in /home/ubuntu/workspace/cst336/hw3/functions.php on line 25
+[07-Nov-2018 21:22:24 UTC] PHP Parse error:  syntax error, unexpected '{', expecting ']' in /home/ubuntu/workspace/cst336/hw3/functions.php on line 9
+[08-Nov-2018 00:18:00 UTC] PHP Parse error:  syntax error, unexpected 'to' (T_STRING) in /home/ubuntu/workspace/cst336/hw3/functions.php on line 9
+[08-Nov-2018 04:05:02 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/hw3/functions.php on line 18
+[08-Nov-2018 04:10:06 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/hw3/functions.php on line 18
+[08-Nov-2018 04:10:07 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/hw3/functions.php on line 18
+[08-Nov-2018 04:10:28 UTC] PHP Fatal error:  Cannot use isset() on the result of an expression (you can use "null !== expression" instead) in /home/ubuntu/workspace/cst336/hw3/functions.php on line 18
+[08-Nov-2018 04:25:24 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/hw3/functions.1.php on line 31
+[08-Nov-2018 04:26:43 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/hw3/functions.1.php on line 31
+[08-Nov-2018 04:30:50 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/cst336/hw3/functions.1.php on line 30
+[09-Nov-2018 03:23:42 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /home/ubuntu/workspace/cst336/hw3/functions.1.php on line 40
+[09-Nov-2018 17:32:34 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/cst336/hw3/functions.2.php on line 21
