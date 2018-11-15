@@ -80,49 +80,45 @@ function displaySearchResults(){
 }
 ?>
 
-<!DOCTYPE html>
+
+
+<!DOCTYPE HTML>
 <html>
     <head>
         <title>OtterMart Product Search</title>
-        <link href="css/styles.css" rel="stylesheet" type="text/css" />
+        <link rel="stylesheet" href="css/styles.css" type="text/css"/>
     </head>
-    
     <body>
-        <div id="searchBar">
-            <h1>OtterMart Product Search</h1>
+        <div>
+            <h1>OtterMart Product Searck</h1>
             
             <form>
-                <div class="formItem">
-                    Product: <input type="text" name="product"/>&nbsp&nbsp;
-                </div>
-                <div class="formItem">
-                    Category: 
-                    <select name="category">
-                        <option value="">Select One</option>
-                        <?=displayCategories()?>
-                    </select>
-                    &nbsp;
-                    &nbsp;
-                </div>
-                <div class="formItem">
-                Price: From <input type="text" name="priceFrom" size="7"/>
-                       To   <input type="text" name="priceTo" size="7"/>
-                </div>
-                <br />
+                
+                Product: <input type="text" name="product"/>
+                <br/>
+                Category:
+                <select name="category">
+                    <option value ="">Select One</option>
+                    <?=displayCategories()?>
+                </select>
+                <br/>
+                Price: From <input type="text" name ="priceFrom" size="7"/>
+                       To   <Input type="text" name="priceTo" size="7"/>
+                <br/>
                 Order result by:
-                <input type="radio" name="orderBy" value="price" /> Price
-                &nbsp;
-                <input type="radio" name="orderBy" value="name" /> Name
-                <br />
-                <input type="submit" value="Search" name="searchForm" />
+                <br/>
+                
+                <input type = "radio" name ="orderBy" value ="price"/>Price<br>
+                <input type ="radio" name="orderBy" value ="name"/> Name
+                
+                <br/><br/>
+                <input type="submit" value ="Search" name ="searchForm"/>
+                
             </form>
-            
-            <br />
+            <br/>
         </div>
-        
         <hr>
-        <div id="productDisplay">
-            <?=displaySearchResults()?>
-        </div>
+        <?= displaySearchResults() ?>
     </body>
+    
 </html>
