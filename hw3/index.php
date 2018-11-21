@@ -74,6 +74,7 @@ function generateForm(){
                  border: 2px solid black;
                  border-radius: 5px;
                  background: #e8d547;
+                 padding: 4px;
             }
             
             .btn-success{

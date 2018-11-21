@@ -1,0 +1,99 @@
+
+
+<link  href="css/styles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<html>
+    <meta charset="UTF-8">
+        <head>
+            <title>To-do list</title>
+            <!-- Yeah, I know, in-line styles are a big no-no. But unfortunately, I can't get the bootstrap stylesheet and my stylesheet to play nice with eachother so I gotta separate them and put each of them in time out for 5 minutes so they can think about what they've done -->
+            <style>
+            h1{
+            margin: auto;
+            color: gold;
+            text-align: center;
+            }
+
+            body{
+                background-color: #5792f2;
+            }
+
+            #form{
+                margin: 0 auto;
+                 width: 29%; 
+                 border: 2px solid black;
+                 border-radius: 5px;
+                 background: #e8d547;
+                 padding: 4px;
+            }
+            
+            .btn-success{
+                position:absolute;
+                top:32%;
+                left: 48%;
+            }
+            
+            td{
+                text-align:center;
+            }
+            
+            tr{
+                height:35px;
+            }
+            
+            .information{
+                position:absolute;
+                top:50%;
+                left: 27%;
+                border: 2px solid black;
+                border-radius: 5px;
+                background: white;
+                padding: 5px;
+            }
+            
+            .emphasis{
+                font-style: italic;
+                font-weight: bold;
+            }
+            
+            footer{
+                position:absolute;
+                top:72%;
+                left: 41%;
+                text-align:center;
+                font-size: .92em;
+            }
+            
+            img{
+                border:2px solid black;
+            }
+            </style>
+        </head>
+    
+    
+    
+    
+    <body>
+        <h1>To-Do list</h1>
+        <div id='form'><script src='js/form.js'></script></div>
+        <div class='information'>
+            <h2>What is this?</h2>
+            <p>This is a cookie-enabled To-Do list written by Ryan Tashiro-Evans. <i>This time in JS and Jquery.</i></p>
+            <p>You can write tasks into this webpage and they will stay here even if you leave the page and come back later.</p>
+            <p>To remove tasks individually you can just hit the red 'remove' button next to the respective task</p>
+            <p>I recommend you remove all the tasks individually or clear this webpage's session when you are done toying around with it.</p>
+            <span class="emphasis"><p>The cookies will remain saved to your computer for a few days or so otherwise.</p></span>
+        </div>
+        <footer><br/><br/><br/>
+                        CST336. 2018&copy; Tashiro-Evans<br/>
+            <strong>Disclaimer:</strong> The information in this webpage is <i>not</i> fictitious. <br />
+            It is to be used for academic purposes only. <br/>
+            <a href="mailto:rtashiro-evans@csumb.edu">Contact me.</a><br/>
+            <img src="img/csumb_otter.png" alt="CSUMB otter logo"/>
+        </footer>
+    </body>
+</html>
