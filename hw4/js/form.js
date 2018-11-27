@@ -1,4 +1,4 @@
-//May the Lord be with whomever dares gaze upon the sin I have brought upon this world.
+//May the Lord be with whomever dares gaze upon the sin I have brought into this world.
     window.onload = generateForm();
     var vars={};
     

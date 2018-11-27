@@ -29,3 +29,5 @@ if(empty($record)){
     $_SESSION['adminName'] = $record['firstName']. " " .$record['lastName'];
     header("Location:admin.php");
 }
+
+?>
